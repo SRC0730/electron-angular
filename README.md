@@ -21,10 +21,13 @@ Electron 是一個使用 JavaScript、HTML 和 CSS 建構桌面應用程式的�
 ### 建置 Angular 環境
 
 1. 建置新專案
+
 2. 執行 `npm start` 並瀏覽 `http://localhost:2000/` 確認是否正常
    ![npm start](doc_image/2023-04-12-22-52-54.png)
    ![npm start result](doc_image/2023-04-12-22-55-26.png)
+
 3. 執行 `npm build` 產生 **dist/Electron-Angular/**
+
    ![npm build](doc_image/2023-04-12-22-56-03.png)
 
    ![electron-quick-start](doc_image/2023-04-08-21-02-50.png)
