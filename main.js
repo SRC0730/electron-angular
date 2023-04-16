@@ -17,6 +17,7 @@ function createWindow() {
   mainWindow.loadFile('dist/electron-angular/index.html')
 
   // Open the DevTools.
+  // Ctrl + Shift + i
   // mainWindow.webContents.openDevTools()
 }
 

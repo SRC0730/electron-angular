@@ -66,25 +66,27 @@ Electron 是一個使用 JavaScript、HTML 和 CSS 建構桌面應用程式的�
 
      - 設定視窗大小
 
-     ```js
-     // Create the browser window.
-     const mainWindow = new BrowserWindow({
-       width: 800,
-       height: 600,
-       webPreferences: {
-         preload: path.join(__dirname, "preload.js"),
-       },
-     });
-     ```
+        ```js
+        // Create the browser window.
+        const mainWindow = new BrowserWindow({
+          width: 800,
+          height: 600,
+          webPreferences: {
+            preload: path.join(__dirname, "preload.js"),
+          },
+        });
+        ```
 
      - 若需要 debug 可將以下程式碼片段打開
 
-     ```js
-     // Open the DevTools.
-     mainWindow.webContents.openDevTools();
-     ```
+        ```js
+        // Open the DevTools.
+        mainWindow.webContents.openDevTools();
+        ```
 
-     ![DevTools](doc_image/2023-04-15-19-36-51.png)
+        或在應用程式執行時使用 `Ctrl + Shift + i` 開啟關閉
+
+        ![DevTools](doc_image/2023-04-15-19-36-51.png)
 
 5. 修改 `index.html` 中 base tag 的 **href** attribute
 
